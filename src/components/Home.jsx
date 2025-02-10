@@ -1,6 +1,6 @@
 import React from "react";
 
-import pic from "../assets/IMG-20250113-WA0006.jpg";
+import pic from "../assets/Myphoto.jpg";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -109,7 +109,7 @@ function Home() {
           <div className="md:w-1/2 md:ml-48 md:mt-10 mt-8 order-1 md:order-2 self-center">
             <img
               src={pic}
-              className="rounded-full  h-[610px] w-[610px] md:w-[450px] md:h-[450px] border"
+              className="rounded-full h-[550px] w-[550px] md:w-[450px] md:h-[450px] border"
               alt=""
             />
           </div>
