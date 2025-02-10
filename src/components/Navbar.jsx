@@ -30,7 +30,7 @@ function Navbar() {
     <>
       <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-20 shadow-md fixed top-0 left-0 right-0 z-50 bg-white">
         <div className="flex justify-between items-center h-20 py-4">
-            <h1 className="font-semibold text-4xl cursor-pointer">
+            <h1 className="text-slate-900 font-semibold text-4xl cursor-pointer">
               Suraj
             </h1>
          
@@ -39,7 +39,7 @@ function Navbar() {
             <ul className="hidden md:flex space-x-8 font-medium text-[18px]">
               {navItems.map(({ id, text }) => (
                 <li
-                  className="hover:text-slate-600 duration-200 cursor-pointer"
+                  className="hover:text-slate-600 duration-200 cursor-pointer text-slate-950"
                   key={id}
                 >
                   <Link
@@ -65,7 +65,7 @@ function Navbar() {
             <ul className="md:hidden flex flex-col h-[310px] pl-5 justify-center space-y-5 text-xl cursor-pointer absolute bg-white left-0 items-start w-full">
               {navItems.map(({ id, text }) => (
                 <li
-                  className="hover:text-slate-600 duration-200 font-semibold cursor-pointer ml-5"
+                  className="hover:text-slate-600 duration-200 font-semibold cursor-pointer ml-5 text-slate-950"
                   key={id}
                 >
                   <Link

@@ -70,14 +70,14 @@ const Experiance = () => {
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
     >
       <div>
-        <h1 className="text-3xl font-bold mb-5">Experiance</h1>
-        <p className=" ">
+        <h1 className="text-3xl font-bold mb-5 text-slate-950">Experiance</h1>
+        <p className="text-slate-900">
           I've more than 6 Months of experiance in below technologies.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10 my-5">
           {skillLogo.map(({ id, logo, name }) => (
             <div
-              className=" flex justify-center items-center flex-col  md:w-[180px] md:h-[180px] p-1 cursor-pointer hover:scale-110 duration-300 my-2"
+              className="text-slate-900 flex justify-center items-center flex-col  md:w-[180px] md:h-[180px] p-1 cursor-pointer hover:scale-110 duration-300 my-2"
               key={id}
             >
               <div className="text-9xl">{logo}</div>

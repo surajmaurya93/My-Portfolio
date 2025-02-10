@@ -36,10 +36,10 @@ function Contact() {
         name="Contact"
         className="max-w-screen-2xl container mx-auto px-4 md:px-20"
       >
-        <h1 className="text-left text-3xl font-bold p-5">Contact</h1>
+        <h1 className="text-left text-3xl font-bold p-5 text-slate-950">Contact</h1>
         <div className="max-w-md mx-auto my-5 bg-white p-6 rounded-md shadow-2xl">
           <form onSubmit={handleSubmit(onSubmit)}>
-            <h2 className="text-2xl font-bold mb-4">Send Your Message</h2>
+            <h2 className="text-2xl font-bold mb-4 text-slate-950">Send Your Message</h2>
             <div className="mb-4">
               <label
                 htmlFor="name"

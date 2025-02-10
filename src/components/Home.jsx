@@ -21,11 +21,11 @@ function Home() {
       >
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2">
-            <h1 className="text-2xl md:text-4xl">Hi, 👋 Suraj here</h1>
+            <h1 className="text-2xl md:text-4xl text-slate-900">Hi, 👋 Suraj here</h1>
             <div className="flex space-x-1 text-2xl md:text-4xl">
-              <h1>I'm a</h1>
+              <h1 className="text-slate-900">I'm a</h1>
               <ReactTyped
-                className="text-slate-600 font-bold"
+                className="text-red-600 font-bold"
                 strings={[
                   "Frontend Developer",
                   "Backend Developer",
@@ -37,7 +37,7 @@ function Home() {
               />
             </div>
             <br />
-            <p className="text-[15.2px] font-medium text-justify">
+            <p className="text-[15.2px] font-medium text-justify text-slate-800">
               Hi there! I'm Suraj Maurya, a passionate MERN stack developer with a keen
               interest in crafting robust and scalable web applications. I
               specialize in leveraging the MERN (MongoDB, Express.js, React,
@@ -54,10 +54,10 @@ function Home() {
             <br />
             <div className="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
               <div className="space-y-2">
-                <h1 className="font-semibold text-[16.48px] text-center">
+                <h1 className="font-semibold text-[16.48px] text-center text-slate-900">
                   Available on
                 </h1>
-                <ul className="flex space-x-4">
+                <ul className="flex space-x-4 text-slate-900">
                   <li>
                     <a
                       href="https://wa.me/9354761682"
@@ -90,10 +90,10 @@ function Home() {
                 </ul>
               </div>
               <div className="space-y-2">
-                <h1 className="font-semibold text-[16.48px]">
+                <h1 className="font-semibold text-[16.48px] text-slate-900">
                   Currently Working on
                 </h1>
-                <div className="flex space-x-4">
+                <div className="flex space-x-4 text-slate-900">
                   <SiMongodb
                     className="text-2xl cursor-pointer hover:scale-125 duration-300" />
                   <SiExpress
