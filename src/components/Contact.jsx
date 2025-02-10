@@ -1,10 +1,11 @@
 import axios from "axios";
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
-
+import { ClipLoader } from "react-spinners";
 
 function Contact() {
+  const [loading, setLoading] = useState(false);
   const {
     register,
     handleSubmit,
@@ -17,12 +18,16 @@ function Contact() {
       email: data.email,
       message: data.message,
     };
+    setLoading(true);
     try {
       await axios.post("https://getform.io/f/byvvgewa", userInfo);
       toast.success("Message Send SuccessFully");
+      setLoading(false);
     } catch (error) {
       console.log(error);
       toast.error("Something went wrong");
+      console.log(error);
+      setLoading(false);
     }
   };
   return (
@@ -97,6 +102,9 @@ function Contact() {
                 type="submit"
                 className="bg-slate-600 w-full font-medium text-white px-6 py-3 rounded-md hover:bg-slate-800 focus:outline-none focus:bg-black"
               >
+                {loading && (
+                  <ClipLoader className="mr-2" size={20} color="white" />
+                )}
                 Send
               </button>
             </div>
