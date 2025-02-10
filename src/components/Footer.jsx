@@ -23,7 +23,7 @@ function Footer() {
               <p className="text-sm">
                 &copy; 2025 Suraj Maurya. All Right Reserved.
               </p>
-              <p className="text-sm">Supportive Partner ❤️ Kiran</p>
+              <p className="text-sm">Supportive Partner ❤️ My-Self</p>
             </div>
           </div>
         </div>

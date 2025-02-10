@@ -80,7 +80,7 @@ const Experiance = () => {
               className=" flex justify-center items-center flex-col  md:w-[180px] md:h-[180px] p-1 cursor-pointer hover:scale-110 duration-300 my-2"
               key={id}
             >
-              <div className="text-[125px]">{logo}</div>
+              <div className="text-9xl">{logo}</div>
               <div>
                 <div className="">{name}</div>
               </div>
