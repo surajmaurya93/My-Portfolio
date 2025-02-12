@@ -28,8 +28,8 @@ function Navbar() {
   ];
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-20 shadow-md fixed top-0 left-0 right-0 z-50 bg-white">
-        <div className="flex justify-between items-center h-20 py-4">
+      <div className="max-w-screen-2xl container mx-auto h-16 fixed top-0 left-0 right-0 z-50 bg-white">
+        <div className="flex justify-between items-center md:px-20 px-4 py-4 bg-white border-b-2">
             <h1 className="text-slate-900 font-semibold text-4xl cursor-pointer">
               Suraj
             </h1>
@@ -62,10 +62,10 @@ function Navbar() {
         {/* mobile navbar */}
         {menu && (
           <div className="bg-white">
-            <ul className="md:hidden flex flex-col h-[310px] pl-5 justify-center space-y-5 text-xl cursor-pointer absolute bg-white left-0 items-start w-full">
+            <ul className="md:hidden flex flex-col h-[290px] pl-8 justify-center space-y-5 text-xl cursor-pointer absolute bg-white left-0 items-start w-full">
               {navItems.map(({ id, text }) => (
                 <li
-                  className="hover:text-slate-600 duration-200 font-semibold cursor-pointer ml-5 text-slate-950"
+                  className="hover:text-slate-600 duration-200 font-semibold cursor-pointer text-slate-900"
                   key={id}
                 >
                   <Link
