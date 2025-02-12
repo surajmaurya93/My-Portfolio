@@ -106,10 +106,10 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="md:w-1/2 md:ml-48 md:mt-10 mt-8 order-1 md:order-2 self-center">
+          <div className="md:w-1/2 md:ml-48 md:mt-10 mt-8 mb-[-15px] order-1 md:order-2 self-center">
             <img
               src={pic}
-              className="rounded-full h-[440px] w-[440px] md:w-[450px] md:h-[450px] border"
+              className="rounded-full h-[390px] w-[390px] md:w-[450px] md:h-[450px] bor"
               alt=""
             />
           </div>
