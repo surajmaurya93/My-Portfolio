@@ -37,7 +37,7 @@ function Home() {
               />
             </div>
             <br />
-            <p className="text-[15.2px] font-medium text-justify text-slate-800">
+            <p className="text-[15px] font-medium text-justify text-slate-800">
               Hi there! I'm Suraj Maurya, a passionate MERN stack developer with a keen
               interest in crafting robust and scalable web applications. I
               specialize in leveraging the MERN (MongoDB, Express.js, React,
@@ -106,7 +106,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="md:w-1/2 md:ml-48 md:mt-10 mt-8 mb-[-15px] order-1 md:order-2 self-center">
+          <div className="md:w-1/2 md:ml-48 md:mt-10 mt-9 mb-[-10px] order-1 md:order-2 self-center">
             <img
               src={pic}
               className="rounded-full h-[390px] w-[390px] md:w-[450px] md:h-[450px] bor"
